@@ -1,7 +1,8 @@
 {
     "version": 2,
     "framework": null,
-    "buildCommand": "php -r \"copy('https://getcomposer.org/installer', '/tmp/composer-setup.php');\" && php /tmp/composer-setup.php --install-dir=/tmp --filename=composer && php /tmp/composer install --no-dev --optimize-autoloader && npm run build",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
     "outputDirectory": "public",
     "functions": {
         "api/index.php": {
